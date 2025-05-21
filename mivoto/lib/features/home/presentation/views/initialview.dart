@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:mivoto/features/home/presentation/bloc/home_bloc.dart';
 
 class inicial extends StatelessWidget {
   const inicial({
@@ -46,8 +48,12 @@ class inicial extends StatelessWidget {
                 Text('Partido Radical', style: TextStyle(color: Colors.white, fontSize: 20)),
                 SizedBox(height: 10),
                 ElevatedButton(
-                  onPressed: () => ('Opción 1'),
+                  onPressed: (){
+                    final homeBloc = BlocProvider.of<HomeBloc>(context);
+                      homeBloc.add(HomeSearchPressed());
+                  },
                   child: Text('Votar'),
+
                 ),
               ],
             ),
@@ -74,7 +80,10 @@ class inicial extends StatelessWidget {
                 Text('Partido Conservador', style: TextStyle(color: Colors.white, fontSize: 20)),
                 SizedBox(height: 10),
                 ElevatedButton(
-                  onPressed: () => ('Opción 2'),
+                  onPressed: (){
+                    final homeBloc = BlocProvider.of<HomeBloc>(context);
+                      homeBloc.add(HomeSearchPressed());
+                  },
                   child: Text('Votar'),
                 ),
               ],
