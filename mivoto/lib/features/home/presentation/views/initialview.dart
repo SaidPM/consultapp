@@ -35,15 +35,15 @@ class inicial extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(50),
                   child: Image.network(
-                    'https://upload.wikimedia.org/wikipedia/commons/6/66/La_presidenta_Diaz_Ayuso_y_%C3%81lvaro_Uribe_%28cropped%29.jpg',
-                    width: 320,
+                    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg/1200px-Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg',
+                    width: 300,
                     height: 300,
                     fit: BoxFit.cover,
                   ),
                 ),
                 SizedBox(height: 10),
-                Text('Luis Badillo', style: TextStyle(color: Colors.white, fontSize: 20)),
-                Text('Partido Puchainal', style: TextStyle(color: Colors.white, fontSize: 20)),
+                Text('Mark Zuckerberg', style: TextStyle(color: Colors.white, fontSize: 20)),
+                Text('Partido Radical', style: TextStyle(color: Colors.white, fontSize: 20)),
                 SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () => ('Opción 1'),
@@ -63,15 +63,15 @@ class inicial extends StatelessWidget {
                 ClipRRect(
                     borderRadius: BorderRadius.circular(50),
                     child: Image.network(
-                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OxVzshFHoopkbzool2AL3WmjV0wu4aCtwQ&s',
-                      width: 320,
+                      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/The_White_House_-_54409525537_%28cropped%29.jpg/250px-The_White_House_-_54409525537_%28cropped%29.jpg',
+                      width: 300,
                       height: 300,
                       fit: BoxFit.cover,
                     ),
                   ),
                 SizedBox(height: 10),
-                Text('Adrian Jacquin', style: TextStyle(color: Colors.white, fontSize: 20)),
-                Text('Partido pollal', style: TextStyle(color: Colors.white, fontSize: 20)),
+                Text('Elon Musk', style: TextStyle(color: Colors.white, fontSize: 20)),
+                Text('Partido Conservador', style: TextStyle(color: Colors.white, fontSize: 20)),
                 SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () => ('Opción 2'),

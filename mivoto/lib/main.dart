@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'features/home/presentation/views/failureview.dart';
 import 'features/home/presentation/views/initialview.dart';
 import 'features/home/presentation/views/loadingview.dart';
+import 'features/home/presentation/views/sucessview.dart';
 
 void main() {
   runApp(Pio());
@@ -13,12 +14,14 @@ class Pio extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp( 
         title: 'Votacion',
-        home: failurev(),
+        home: sucessv()
             );
             
         
   }
 }
+
+
 
 
 
