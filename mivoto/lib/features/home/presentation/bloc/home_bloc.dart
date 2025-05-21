@@ -12,7 +12,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       final response = await http.get(url);
 
       if (response.statusCode == 200){
-        emit(HomeLoadSucess());
+        emit(HomeLoadSuccess());
       } else{
         emit(HomeLoadFailure());
       }
