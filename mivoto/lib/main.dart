@@ -14,7 +14,7 @@ class Pio extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp( 
         title: 'Votacion',
-        home: sucessv()
+        home: inicial()
             );
             
         
